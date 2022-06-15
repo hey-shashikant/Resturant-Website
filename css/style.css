@@ -18,3 +18,91 @@
     margin: 0 auto;
     padding: 1%;
 }
+
+
+.btn{
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    background-color: #ff7675;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: #c0392b;
+}
+
+/* To move the image logo inside the container. */
+.img-responsive{
+    width: 100%;   
+}
+
+.logo{
+    border: 1px solid black;
+    width: 13%;
+    float: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+
+a{
+    color: #ff7675;
+    text-decoration: none;
+}
+
+/* this is sudo class */
+a:hover{
+    color: #c0392b;
+}
+
+/* css for navbar section */
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu{
+    line-height: 60px;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for food search section */
+
+.food-search{
+    background-image: url(../images/bg.jpg);
+    padding: 7% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
