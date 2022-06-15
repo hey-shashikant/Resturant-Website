@@ -13,7 +13,7 @@
 
 
 .container{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 80%;
     margin: 0 auto;
     padding: 1%;
@@ -50,7 +50,7 @@ a:hover{
 }
 
 .logo{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 13%;
     float: left;
 }
@@ -85,6 +85,7 @@ a:hover{
 h2{
     color:#2d3436;
     font-size: 2rem;
+    margin-bottom: 2%;
 }
 
 h3{
@@ -141,7 +142,7 @@ a{
 .box-3{
     width: 28%;
     float: left;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 2%;
     border: none;
 }
@@ -150,14 +151,103 @@ a{
 
 .food-menu{
     background-color: #ececec;
-    padding: 4%;
+    padding: 4% 0;
 }
-
 .food-menu-box{
-    border: 1px solid black;
-    width: 40%;
+    width: 43%;
     margin: 1%;
     padding: 2%;
     float: left;
     background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.food-detail{
+    font-size: 1rem;
+    color: #636e72;
+}
+
+/* CSS for social */
+
+.social ul{
+    list-style-type: none;
+}
+
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* CSS for mobile compitable view */
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
 }
