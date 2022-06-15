@@ -20,21 +20,28 @@
 }
 
 
-.btn{
-    padding: 1%;
-    font-size: 1rem;
-    border: none;
-    border-radius: 5px;
+.img-curve{
+    border-radius: 10px;
 }
 
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
 .btn-primary{
-    background-color: #ff7675;
+    background-color: #ff6b81;
     color: white;
     cursor: pointer;
 }
-
 .btn-primary:hover{
-    background-color: #c0392b;
+    color: white;
+    background-color: #ff4757;
 }
 
 /* To move the image logo inside the container. */
@@ -61,16 +68,34 @@
     float: none;
 }
 
+.float-container{
+    position: relative;
+}
+
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+
+.text-white{
+    color: white;
+}
+
+h2{
+    color:#2d3436;
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
 
 a{
     color: #ff7675;
     text-decoration: none;
 }
 
-/* this is sudo class */
-a:hover{
-    color: #c0392b;
-}
 
 /* css for navbar section */
 
@@ -105,4 +130,34 @@ a:hover{
     font-size: 1rem;
     border: none;
     border-radius: 5px;
+}
+
+/* CSS for category class */
+
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    border: 1px solid black;
+    margin: 2%;
+    border: none;
+}
+
+/* CSS for food menu */
+
+.food-menu{
+    background-color: #ececec;
+    padding: 4%;
+}
+
+.food-menu-box{
+    border: 1px solid black;
+    width: 40%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
 }
